@@ -1,0 +1,134 @@
+/* 全体のスタイル */
+div {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* タイトル */
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+h2 a:hover {
+  text-decoration: underline;
+}
+
+/* 入力欄 */
+input {
+  width: calc(50% - 10px);
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* 追加ボタン */
+button {
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* ナビゲーション（カテゴリリンク） */
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* タスクリスト */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+li:hover {
+  background: #f1f1f1;
+}
+
+/* 編集時の入力フィールド */
+li input {
+  flex: 1;
+  border: none;
+  font-size: 16px;
+}
+
+li input:focus {
+  outline: none;
+  border-bottom: 2px solid #007bff;
+}
+
+/* タスクテキスト */
+li span {
+  cursor: pointer;
+  flex: 1;
+  font-size: 16px;
+}
+
+/* 完了済みのタスク */
+li span.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* 削除ボタン */
+li button {
+  background: #ff4d4d;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background: #cc0000;
+}
