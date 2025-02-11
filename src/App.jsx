@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router";
-import CategoryPage from "./category/Categorypage.jsx"; // カテゴリページをインポート
+import CategoryPage from "./category/CategoryPage.jsx"; // カテゴリページをインポート
 import "./App.css";
 
 function TodoApp() {
